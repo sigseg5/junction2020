@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">w3e</string>
     <string name="w3c_app_logo">w3c app logo</string>
+    <string name="log_in_with_facebook">Log-in with Facebook</string>
 </resources>

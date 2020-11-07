@@ -11,9 +11,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="94dp"
+        android:layout_marginBottom="79dp"
         android:contentDescription="@string/w3c_app_logo"
+        app:layout_constraintBottom_toTopOf="@+id/login_fb_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/app_logo" />
+
+    <Button
+        android:id="@+id/login_fb_btn"
+        android:layout_width="176dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="238dp"
+        android:text="@string/log_in_with_facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
