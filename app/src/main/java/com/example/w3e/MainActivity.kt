@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         login_fb_btn.setOnClickListener {
-//            val intent = Intent(this, )
+            val intent = Intent(this, GetUserInfo::class.java)
+            startActivity(intent)
         }
     }
 }
