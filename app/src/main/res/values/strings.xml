@@ -2,4 +2,22 @@
     <string name="app_name">w3e</string>
     <string name="w3c_app_logo">w3c app logo</string>
     <string name="log_in_with_facebook">Log-in with Facebook</string>
+    <string name="get_user_info_text">Please give us some information about yourself.</string>
+    <string name="poc_string">This is a proof of concept app</string>
+    <string name="smoker">smoker</string>
+    <string name="drink_level">drink_level</string>
+    <string name="dress_preference">dress_preference</string>
+    <string name="amb">ambience</string>
+    <string name="transport">transport</string>
+    <string name="marital_status">marital_status</string>
+    <string name="hijos">hijos</string>
+    <string name="birth_year">birth_year</string>
+    <string name="interest">interest</string>
+    <string name="personality">personality</string>
+    <string name="religion">religion</string>
+    <string name="activity">activity</string>
+    <string name="color">color</string>
+    <string name="weight">weight</string>
+    <string name="budget">budget</string>
+    <string name="height">height</string>
 </resources>
