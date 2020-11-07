@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.W3e">
-        <activity android:name=".GetUserInfo"></activity>
+        <activity
+            android:name=".ChoosePerson"
+            android:label="@string/title_activity_choose_person"
+            android:theme="@style/Theme.W3e.NoActionBar"></activity>
+        <activity android:name=".GetUserInfo" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
